@@ -8,7 +8,7 @@
 import Foundation
 
 class AppModel:ObservableObject{
-    var portfolio: Portfolio = Portfolio(name:"Krishna Prasaad",role:"student",description: "to infinity and beyond",location: "Vellore,TN",reg:("22BCE3479"),skills: [
+    var portfolio: Portfolio = Portfolio(name:"Ramana Raj",role:"student",description: "to infinity and beyond",location: "Vellore,TN",reg:("22BCE3479"),skills: [
     Skill(id: UUID().uuidString, skillName: "iOS", image: "iphone"),
     Skill(id: UUID().uuidString, skillName: "Swift 5", image: "swift"),
     Skill(id: UUID().uuidString, skillName: "WatchOS", image: "applewatch"),
